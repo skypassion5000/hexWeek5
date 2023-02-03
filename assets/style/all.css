@@ -11658,6 +11658,10 @@ img {
   font-size: 12px;
 }
 
+.fs-14px {
+  font-size: 14px;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   margin: 0;
 }
@@ -11779,6 +11783,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 
 .bg-gray-100 {
   background-color: #f8f9fa;
+}
+
+.me-15px {
+  margin: 0px 15px  0px 0px;
 }
 
 /*# sourceMappingURL=all.css.map */
