@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11563,10 +11564,221 @@ fieldset:disabled .btn {
   }
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.font-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.nav {
+  /*   border:1px solid black; */
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+}
+
+.main {
+  margin-left: 296px;
+}
+
+.nav-link {
+  padding: 12px 32px;
+  position: relative;
+}
+
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+
+.list-group-item.active {
+  color: black;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.expand_more {
+  display: none;
+}
+
+.expand_less {
+  display: inline-block;
+}
+
+.collapsed .expand_more {
+  display: inline-block;
+}
+
+.collapsed .expand_less {
+  display: none;
+}
+
+.container {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.me-50 {
+  margin-right: 50px;
+}
+
+.header {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.resize {
+  min-width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-gray-600 {
+  color: #6c757d;
+}
+
+.mb-6px {
+  margin-bottom: 6px;
+}
+
+.fs-12px {
+  font-size: 12px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+  margin: 0;
+}
+
+.bg-gray-100 {
+  background-color: #f8f9fa;
+}
+
+.list-group-item.active {
+  background-color: #f8f9fa;
+}
+
+.list-group-item-action:hover {
+  background-color: #f8f9fa;
+}
+
+.border-bottom-gray-400 {
+  border-bottom: 1px solid #ced4da;
+}
+
+.height-319px {
+  height: 319px;
+}
+
+/* CKEditor 編輯區塊 */
+.ck-editor__editable_inline {
+  /* 設定最低高度 */
+  min-height: 319px;
+}
+
+.psr {
+  position: relative;
+}
+
+.psa {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+}
+
+.padding-4px {
+  padding: 4px;
+}
+
+.page-link {
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212529;
+  overflow: hidden;
+}
+
+.page-link:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.page-link:hover span {
+  color: white;
+}
+
+.lh-33px {
+  line-height: 33px;
+}
+
+.bth-mail {
+  border: 1px solid #ced4da;
+}
+
+.p-32px {
+  padding: 32px;
+}
+
+.px-32px {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.py-32px {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.pe-32px {
+  padding-right: 32px;
+}
+
+.py-8px {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.p-12px {
+  padding: 12px;
+}
+
+.pb-22px {
+  padding-bottom: 22px;
+}
+
+.mb-32px {
+  margin-bottom: 32px;
+}
+
+.img-adjust {
+  width: 141px;
+  height: 141px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bg-gray-100 {
+  background-color: #f8f9fa;
 }
 
 /*# sourceMappingURL=all.css.map */
