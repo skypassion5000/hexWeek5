@@ -1,0 +1,60 @@
+.padding-4px{
+    padding: 4px;
+}
+.page-link{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $gray-900;
+    overflow: hidden;
+    &:hover {
+        background-color: $success;
+        color: white;
+    }
+    &:hover span {
+        color: white;
+    }
+}
+.lh-33px{
+    line-height: 33px;
+}
+.bth-mail{
+    border: 1px solid $gray-400;
+}
+.p-32px{
+    padding: 32px;
+}
+.px-32px{
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.py-32px{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.pe-32px{
+    padding-right: 32px;
+}
+.py-8px{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.p-12px{
+    padding: 12px;
+}
+.pb-22px{
+    padding-bottom: 22px;
+}
+.mb-32px{
+    margin-bottom: 32px;
+}
+.img-adjust{
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+}
+.bg-gray-100{
+    background-color: $gray-100;
+}

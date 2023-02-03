@@ -6,54 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
-
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <nav class="nav flex-column justify-content-between bg-light">
+      <div class="w-100">
+        <a class="nav-link mt-3 mb-3" href="#"><img class="img-fluid" src="./assets/images/logo-ANSWER.svg" alt=""></a>
+        <a class="d-flex nav-link link-dark" aria-current="page" href="#"> 
+          <span class="material-icons pe-3">
+            assessment
+          </span>
+          Dashboard
+        </a>
+        <a class="d-flex nav-link link-dark" aria-current="page" href="#"> 
+          <span class="material-icons pe-3">
+            question_answer
+          </span>
+          Question
+        </a>
+        <a class="d-flex nav-link link-success active" aria-current="page" href="#"> 
+          <span class="material-icons pe-3">
+            assignment
+          </span>
+          Assignment
+        </a>
+        <a class="d-flex nav-link link-dark" aria-current="page" href="#"> 
+          <span class="material-icons pe-3">
+            video_library
+          </span>
+          Course
+        </a>
+        <a class="d-flex nav-link link-dark" aria-current="page" href="#"> 
+          <span class="material-icons pe-3">
+            supervisor_account
+          </span>
+          Admin
+        </a>
+        <a class="d-flex nav-link link-dark" aria-current="page" href="#"> 
+          <span class="material-icons pe-3">
+            settings
+          </span>
+          Settings
+        </a>
+      </div>
+      <div class="nav-link w-100">
+        <div class="d-flex align-items-center">
+          <div>
+            <img class="resize rounded-circle me-3" src="./assets/images/andychen.jpeg" alt="...">
+          </div>
+          <div>
+            <h3 class="mb-1 fw-bold fs-6 text-dark lh-base">Andy Chen</h3>
+            <p><a class="text-decoration-none text-gray-600 fs-12px lh-lg" href="mailto:andy0401@mail.com">andy0401@mail.com</a></p>
+          </div>
         </div>
       </div>
     </nav>
 
     <%- contents %>
 
-    <footer class="footer">
-      footer
-    </footer>
-
+    <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

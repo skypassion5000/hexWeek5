@@ -1,5 +1,113 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+body{
+  font-family: 'Lato', sans-serif;
 }
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.font-mono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.nav{
+  /*   border:1px solid black; */
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+}
+.main{
+  margin-left: 296px;
+}
+.nav-link{
+  padding: 12px 32px;
+  position: relative;
+}
+.nav-link.active::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+.list-group-item.active{
+  color: black;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+.expand_more {
+  display: none;
+}
+.expand_less {
+  display: inline-block;
+}
+.collapsed .expand_more {
+  display: inline-block;
+}
+
+.collapsed .expand_less {
+  display: none;
+}
+.container{
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.me-50{
+  margin-right: 50px;
+}
+.header{
+  // 32px - (navbar 8px + navbar-brand 5px) = 19px
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.resize{
+  min-width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.text-gray-600{
+  color: $gray-600;
+}
+.mb-6px{
+  margin-bottom: 6px;
+}
+.fs-12px{
+  font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+.bg-gray-100{
+  background-color: $gray-100;
+}
+.list-group-item.active{
+  background-color: $gray-100;
+}
+.list-group-item-action:hover{
+  background-color: $gray-100;
+}
+.border-bottom-gray-400{
+  border-bottom: 1px solid $gray-400;
+}
+
+.height-319px{
+  height: 319px;
+}
+/* CKEditor 編輯區塊 */
+.ck-editor__editable_inline {
+	/* 設定最低高度 */
+    min-height: 319px;
+}
+.psr{
+  position: relative;
+}
+.psa{
+  position: absolute;
+  right:24px;
+  bottom:16px;
+}
+
+
