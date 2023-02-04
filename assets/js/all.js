@@ -8,4 +8,7 @@ ClassicEditor.create(document.querySelector('#editor')).then(function (editor) {
 })["catch"](function (error) {
   console.error(error);
 });
+$('[data-toggle="accessBtn"]').on('click', function () {
+  return $('[data-target="editorContainer"]').toggle(300);
+});
 //# sourceMappingURL=all.js.map

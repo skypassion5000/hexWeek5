@@ -11698,8 +11698,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 
 .psa {
   position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.psa-btn {
+  position: absolute;
   right: 24px;
   bottom: 16px;
+}
+
+.cursor-pointer:hover {
+  color: #198754;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 .padding-4px {
