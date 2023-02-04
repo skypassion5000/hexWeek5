@@ -102,15 +102,26 @@ h1,h2,h3,h4,h5,h6,p{
 /* CKEditor 編輯區塊 */
 .ck-editor__editable_inline {
 	/* 設定最低高度 */
-    min-height: 319px;
+  min-height: 319px;
 }
 .psr{
   position: relative;
 }
 .psa{
   position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.psa-btn{
+  position: absolute;
   right:24px;
   bottom:16px;
 }
-
+.cursor-pointer:hover{
+  color: $success;
+  cursor: pointer;
+} 
+.hidden{
+  display: none;
+}
 

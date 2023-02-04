@@ -9,3 +9,4 @@ ClassicEditor
   .catch( error => {
   console.error( error );
 } );
+$('[data-toggle="accessBtn"]').on('click', () => $('[data-target="editorContainer"]').toggle(300));
